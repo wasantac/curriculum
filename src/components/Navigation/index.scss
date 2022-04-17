@@ -1,0 +1,44 @@
+@import "../../styles/global.scss";
+
+.navigation {
+    background-color: $grey;
+    color: $white;
+    display: flex;
+    align-items: center;
+
+    .image {
+        margin-right: auto;
+        padding: 16px;
+    }
+
+    ul {
+        background-color: $grey;
+        color: $white;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul > li {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    ul div {
+        display: inline-block;
+        margin-right: auto;
+    }
+
+    li a {
+        display: block;
+        color: $white;
+        text-align: center;
+        margin: 6px;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    li a:hover {
+        background-color: $red;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/global.scss";
+.footer {
+    background-color: $grey;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+
+    ul {
+        background-color: $grey;
+        color: $white;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul > li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 16px;
+    }
+}

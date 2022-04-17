@@ -1,0 +1,20 @@
+@import "../../styles/global.scss";
+
+.home {
+    color: $white;
+}
+
+.home-container {
+    background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-intro {
+    text-align: center;
+}
+
+.experiencia-text {
+    text-align: left;
+}
