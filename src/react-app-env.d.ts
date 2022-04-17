@@ -5,3 +5,9 @@ type route = {
     value: string;
 };
 
+type card = {
+    src: string;
+    content: string;
+    title: string;
+    alt: string;
+}

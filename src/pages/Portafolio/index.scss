@@ -1,0 +1,23 @@
+@import "../../styles/global.scss";
+
+.Proyectos-Title {
+    color: $white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.Proyectos-Text {
+    color: $white;
+    text-align: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1100px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}

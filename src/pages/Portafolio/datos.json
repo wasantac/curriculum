@@ -1,0 +1,14 @@
+[
+    {
+        "src": "timer.png",
+        "alt": "Timer GoGoFriendZ",
+        "title": "Timer GoGoFriendZ",
+        "content" : "Este es un proyecto que se utiliza actualmente para mostrar un temporizador antes de iniciar un directo en el canal de twitch de gogofriendz."
+    },
+    {
+        "src": "marcador.png",
+        "alt": "Marcador GoGoFriendZ",
+        "title": "Marcador GoGoFriendZ",
+        "content" : "Este es un proyecto que se utiliza actualmente para mostrar un marcador mientras se juegan juegos de pelea para saber la puntuación de cada jugador en el canal de twitch de gogofriendz."
+    }
+]

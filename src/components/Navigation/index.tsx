@@ -9,8 +9,8 @@ const Navigation = () => {
     const { width } = useWindowDimensions();
     const routes = [
         { to: "/", value: "Inicio" },
-        { to: "/", value: "Sobre mí" },
-        { to: "/", value: "Proyectos" },
+        { to: "/about", value: "Sobre mí" },
+        { to: "/portafolio", value: "Proyectos" },
         { to: "/", value: "Contácteme" },
     ];
 
