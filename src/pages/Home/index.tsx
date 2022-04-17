@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 import "./index.scss";
 import walter from "../../assets/walter.jpg";
+import Lenguajes from "../../components/Lenguajes";
 
 const Intro = () => {
     return (
@@ -38,7 +39,7 @@ const Experiencia = () => {
                     <p className="experiencia-text">{experiencia}</p>
                 </div>
                 <div className="col-sm-6 d-flex justify-content-center align-items-center flex-column">
-                    test
+                    <Lenguajes />
                 </div>
             </div>
         </div>

@@ -1,0 +1,34 @@
+@import "../../styles/global.scss";
+
+.icono {
+    height: 40px;
+    transform: scale(1.2);
+}
+.fondo {
+    background-color: $grey;
+    padding: 3% 3%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 992px) {
+    .fondo {
+        margin: 2% !important;
+    }
+    #experiencia {
+        padding: 0 !important;
+    }
+}
+
+.agrandar {
+    transform: scale(1);
+    transition: 0.3s linear;
+}
+.agrandar:hover {
+    transform: scale(1.1);
+    transition: 0.3s linear;
+    cursor: default;
+}
+
+.lenguaje-card {
+    background-color: $light-grey;
+    padding: 10px;
+}
