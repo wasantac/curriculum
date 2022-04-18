@@ -21,6 +21,10 @@
     #experiencia {
         padding: 0 !important;
     }
+    .contenedor-lenguajes {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .agrandar {
