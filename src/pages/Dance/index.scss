@@ -17,12 +17,7 @@
     }
 }
 
-.wrapper-dance {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    background: linear-gradient(
-        124deg,
+/**
         #ff2400,
         #e81d1d,
         #e8b71d,
@@ -32,21 +27,51 @@
         #2b1de8,
         #dd00f3,
         #dd00f3
-    );
-    background-size: 1800% 1800%;
+
+*/
+
+.wrapper-dance {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #ff2400;
 
     animation: rainbow 18s ease infinite;
 }
 
 @keyframes rainbow {
     0% {
-        background-position: 0% 82%;
+        background-color: #ff2400;
+    }
+    10% {
+        background-color: #e81d1d;
+    }
+    20% {
+        background-color: #e8b71d;
+    }
+    30% {
+        background-color: #e3e81d;
+    }
+    40% {
+        background-color: #1de840;
     }
     50% {
-        background-position: 100% 19%;
+        background-color: #1ddde8;
+    }
+    60% {
+        background-color: #2b1de8;
+    }
+    70% {
+        background-color: #dd00f3;
+    }
+    80% {
+        background-color: #dd00f3;
+    }
+    90% {
+        background-color: #ff2400;
     }
     100% {
-        background-position: 0% 82%;
+        background-color: #ff2400;
     }
 }
 
