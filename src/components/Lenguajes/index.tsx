@@ -28,7 +28,7 @@ const Lenguajes = () => {
                 <h2 className="blanco">
                     <LetraMovimiento texto="Conocimientos Sobre:"></LetraMovimiento>
                 </h2>
-                <div className="d-flex flex-wrap align-items-center">
+                <div className="contenedor-lenguajes">
                     {lista.map((item, key) => {
                         return (
                             <p

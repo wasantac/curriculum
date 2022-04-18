@@ -1,5 +1,10 @@
 @import "../../styles/global.scss";
 
+.contenedor-lenguajes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .icono {
     height: 40px;
     transform: scale(1.2);

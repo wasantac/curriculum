@@ -3,10 +3,11 @@ import PageWrapper from "../../components/PageWrapper";
 import "./index.scss";
 import datos from "./datos.json";
 import ProjectCard from "../../components/ProjectCard";
+import { Experiencia } from "../About/Componentes";
 const Title = () => {
     return (
         <div className="container">
-            <h1 className="Proyectos-Title">Proyectos</h1>
+            <h1 className="Proyectos-Title">Proyectos Personales</h1>
             <p className="Proyectos-Text">
                 ¡Ayúdame a llenar esta página con más proyectos!
             </p>
@@ -31,6 +32,7 @@ const Portafolio = () => {
             <PageWrapper>
                 <Title />
                 <Pictures />
+                <Experiencia />
             </PageWrapper>
         </>
     );
