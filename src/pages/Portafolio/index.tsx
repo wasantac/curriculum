@@ -26,7 +26,6 @@ const Pictures = () => {
 };
 
 const Portafolio = () => {
-    console.log(datos);
     return (
         <>
             <PageWrapper>

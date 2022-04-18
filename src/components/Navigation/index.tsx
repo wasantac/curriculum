@@ -11,7 +11,7 @@ const Navigation = () => {
         { to: "/", value: "Inicio" },
         { to: "/about", value: "Sobre mí" },
         { to: "/portafolio", value: "Proyectos" },
-        { to: "/", value: "Contácteme" },
+        { to: "/contact", value: "Contácteme" },
     ];
 
     const setRoutes = (routes: route[]) => {
@@ -27,7 +27,9 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <div className="image">
-                <img src={logo} alt="logo" width={35} height={35} />
+                <Link to="/nsfw">
+                    <img src={logo} alt="logo" width={35} height={35} />
+                </Link>
             </div>
             {width > 475 ? (
                 <ul>{setRoutes(routes)}</ul>

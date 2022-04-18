@@ -1,0 +1,96 @@
+@import "../../styles/global.scss";
+
+.dance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    button {
+        background-color: $red;
+        border: none;
+        color: $white;
+        border-radius: 5px;
+        padding: 16px;
+    }
+}
+
+.wrapper-dance {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(
+        124deg,
+        #ff2400,
+        #e81d1d,
+        #e8b71d,
+        #e3e81d,
+        #1de840,
+        #1ddde8,
+        #2b1de8,
+        #dd00f3,
+        #dd00f3
+    );
+    background-size: 1800% 1800%;
+
+    animation: rainbow 18s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%;
+    }
+    50% {
+        background-position: 100% 19%;
+    }
+    100% {
+        background-position: 0% 82%;
+    }
+}
+
+.particles-bg {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.spongebob {
+    position: absolute;
+}
+
+@for $i from 0 through 51 {
+    $x1: (random(100)) * 1%;
+    $x2: (random(100)) * 1%;
+    @keyframes circle#{$i} {
+        0% {
+            left: -1000px;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+
+    .spongebob:nth-child(#{$i}) {
+        top: $x1;
+        left: -1000px;
+        position: absolute;
+        animation-name: circle#{$i};
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        @if $i < 5 {
+            animation-duration: ($i + 51) * 0.3s;
+        } @else {
+            animation-duration: $i * 0.3s;
+        }
+
+        opacity: 0.5;
+    }
+}

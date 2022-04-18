@@ -12,7 +12,7 @@ const PageWrapper: React.FC<Props> = (props) => {
     return (
         <div className="main-container">
             <Navigation />
-            {children}
+            <div className="children-container">{children}</div>
             <Footer />
         </div>
     );

@@ -1,0 +1,55 @@
+@import "../../styles/global.scss";
+
+.formulario {
+    background-color: $grey;
+    padding: 50px;
+    border-radius: 5px;
+
+    h1 {
+        color: $white;
+    }
+}
+
+.boton-enviar {
+    border-radius: 5px;
+    background-color: $red;
+    color: $white;
+    border: none;
+    padding: 10px;
+}
+
+.grupo-formulario {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: $white;
+    }
+
+    input {
+        border-radius: 5px;
+        background-color: $light-grey;
+        border: none;
+        padding: 10px;
+        color: white;
+        width: 100%;
+    }
+
+    textarea {
+        border-radius: 5px;
+        background-color: $light-grey;
+        border: none;
+        padding: 10px;
+        color: white;
+        width: 100%;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: $red;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
