@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss";
 import {
-    AiOutlineWhatsApp,
+    AiFillLinkedin,
     AiOutlineInstagram,
     AiFillFacebook,
 } from "react-icons/ai";
@@ -10,15 +10,16 @@ const Footer = () => {
         <div className="footer">
             <ul>
                 <li>
-                    <a href="https://wa.me/+593983313553">
-                        <AiOutlineWhatsApp />
-                    </a>
-                </li>
-                <li>
                     <a href="https://www.instagram.com/walter12349/">
                         <AiOutlineInstagram />
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/walter-santacruz-1a896b1b8/">
+                        <AiFillLinkedin />
+                    </a>
+                </li>
+
                 <li>
                     <a href="https://www.facebook.com/skyshot12349">
                         <AiFillFacebook />
