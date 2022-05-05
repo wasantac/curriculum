@@ -6,6 +6,12 @@
     border: none;
     background-color: $red;
     color: $white;
+    transition: scale 0.3s ease;
+    transform: scale(1);
+}
+
+.hamburger:active {
+    transform: scale(0.95);
 }
 
 .hamburger:active {
@@ -42,8 +48,8 @@
         text-align: center;
         text-decoration: none;
         margin: 0;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 75px;
+        padding-left: 75px;
     }
 
     li a:hover {

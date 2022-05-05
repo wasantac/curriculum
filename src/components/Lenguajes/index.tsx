@@ -32,7 +32,7 @@ const Lenguajes = () => {
                     {lista.map((item, key) => {
                         return (
                             <p
-                                className="m-1 text-white rounded shadow agrandar lenguaje-card"
+                                className="m-1 text-white rounded shadow agrandar lenguaje-card text-center"
                                 key={`estadisticas${key}`}
                             >
                                 {item}
